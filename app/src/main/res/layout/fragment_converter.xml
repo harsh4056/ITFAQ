@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragments.ConverterFragment">
+
+
+    <LinearLayout
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textSize="@dimen/text_size"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/editTextEURvalue"
+            android:layout_width="@dimen/max_width_text_view"
+            android:layout_height="@dimen/max_height_text_view"
+            android:maxWidth="@dimen/max_width_text_view"
+            android:minWidth="@dimen/min_width_text_view"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:textSize="@dimen/text_size"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/textViewEUR"
+            android:layout_width="@dimen/max_width_text_view"
+            android:layout_height="@dimen/max_height_text_view"
+            android:maxWidth="@dimen/max_width_text_view"
+            android:minWidth="@dimen/min_width_text_view"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/eur" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textSize="@dimen/text_size"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/textViewValue"
+            android:layout_width="@dimen/max_width_text_view"
+            android:layout_height="@dimen/max_height_text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:cursorVisible="false"
+            android:maxLines="1"
+            android:inputType="text"
+            android:focusable="false"
+            android:maxWidth="@dimen/max_width_text_view"
+            android:minWidth="@dimen/min_width_text_view"
+            android:text="@string/empty" />
+
+        <TextView
+            android:textSize="@dimen/text_size"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/textViewCurrency"
+            android:layout_width="@dimen/max_width_text_view"
+            android:layout_height="@dimen/max_height_text_view"
+            android:maxWidth="@dimen/max_width_text_view"
+            android:minWidth="@dimen/min_width_text_view"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/empty" />
+    </LinearLayout>
+
+</LinearLayout>

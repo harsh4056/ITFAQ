@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_currency_selection">
+
+
+    <fragment
+        android:id="@+id/navigation_currency_selection"
+        android:name="com.yux.itfaqcurrency.view.fragments.CurrencySelectionFragment"
+        android:label="@string/chooser"
+        tools:layout="@layout/fragment_currency_selection">
+        <action
+            android:id="@+id/action_navigation_selection_to_converter"
+            app:destination="@id/navigation_currency_converter" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_currency_converter"
+        android:name="com.yux.itfaqcurrency.view.fragments.ConverterFragment"
+        android:label="@string/converter"
+        tools:layout="@layout/fragment_converter">
+        <argument
+            android:name="baseValue"
+            app:argType="float" />
+        <argument
+            android:name="country"
+            app:argType="string" />
+
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--For chooser-->
+    <dimen name="max_width_text_view_chooser">@dimen/_100sdp</dimen>
+    <dimen name="min_width_text_view_chooser">@dimen/_100sdp</dimen>
+    <dimen name="max_height_text_view_chooser">@dimen/_30sdp</dimen>
+    <dimen name="min_height_text_view_chooser">@dimen/_30sdp</dimen>
+    <dimen name="text_size_choosers">@dimen/_16sdp</dimen>
+    <dimen name="separator_width">@dimen/_50sdp</dimen>
+    <dimen name="separator_height">@dimen/_30sdp</dimen>
+    <dimen name="separator_margin">@dimen/_10sdp</dimen>
+
+
+  <!--____________________________________________________________-->
+
+    <!--For Converter-->
+    <dimen name="text_size">@dimen/_20sdp</dimen>
+    <dimen name="max_width_text_view">@dimen/_40sdp</dimen>
+    <dimen name="min_width_text_view">@dimen/_40sdp</dimen>
+    <dimen name="max_height_text_view">@dimen/_40sdp</dimen>
+    <dimen name="min_height_text_view">@dimen/_40sdp</dimen>
+
+
+    <!--____________________________________________________________-->
+</resources>

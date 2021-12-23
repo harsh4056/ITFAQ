@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">ITFAQ Currency</string>
+    <!-- USD,AUD,CAD,PLN,MXN,INR -->
+    <string name="refresh_message">Conversion Rates Refreshed</string>
+    <string name="usd">🇺🇸 USD</string>
+    <string name="aud">🇦🇺 AUD</string>
+    <string name="cad">🇨🇦 CAD</string>
+    <string name="pln">🇵🇱 PLN</string>
+    <string name="mxn">🇲🇽 MXN</string>
+    <string name="inr">🇮🇳 INR</string>
+    <string name="eur">🇪🇺 EUR</string>
+    <string name="chooser">Currency Chooser</string>
+    <string name="converter">Currency Converter</string>
+    <string name="loading">Loading..</string>
+    <string name="empty">Empty</string>
+    <string name="error">Error!</string>
+    <string name="incorrect">Invalid!</string>
+    <string name="empty_message">This field can not be blank</string>
+    <string name="invalid_message">"Invalid data entered"</string>
+    <string name="splash_screen_title">💶 Converter</string>
+
+
 </resources>
